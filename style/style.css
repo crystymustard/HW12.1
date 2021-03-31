@@ -1,0 +1,120 @@
+.form { 
+    max-width: 400px;
+    height: 496px;
+    background-image: url(../img/body.png);
+    background-size: cover;
+    margin: 0 auto;
+    padding: 52px 69px 104px 70px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(2, 41, 120, 0.1);
+  }
+  .form-nav { 
+    display: flex;
+    margin: 22px 0px 4px 33px;
+  }
+  .form-nav__item1 { 
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin-right: 26px;
+  }
+  .form-nav__item2 { 
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    list-style-type: none;
+  }
+  .form-nav__link { 
+    text-decoration: none;
+    color: #fbf6e4;
+  }
+  .form-nav__link--active { 
+    border-bottom: 2px solid #e66a64;
+  }
+  
+  .form-nav__link:hover{
+    border-bottom: 2px solid #e66a64;
+  }
+  .form-content { 
+    margin: 54px 0px 0px 71px;
+  }
+  .form-content__controls { 
+    display: flex;
+    flex-direction: column;
+  }
+  .form-content__label {
+    padding: 18px 0px 0px 0px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fbf6e4;
+  }
+  .form-content__input { 
+    width: 261px;
+    height: 42px;
+    border: solid 2px rgba(191, 185, 204, 0.54);
+    background-color: #e5eeee00;
+    display: block;
+  }
+  .form-content__control{
+    margin-top: 10px;
+    margin-bottom: 41px;
+    margin-left: -5px;
+  }
+  .form-content__keep{
+    width: 180px;
+    margin-top: 19px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fbf6e4;
+    display: block;
+  }
+  .btn { 
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #fbf6e4;
+  }
+  .btn--sign { 
+    width: 268px;
+    height: 42px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 55px 0px 55px;
+    background-color: #23ae92
+  }
+  .form-content__button { 
+    margin: 33px 33px 4px 1px;
+    font-family: "Quicksand";
+  }
+  .form-content__link { 
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #b9b9cc;
+    padding-right: 23px;
+  }

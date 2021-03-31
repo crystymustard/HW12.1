@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form">
+    <div >
+      <nav>
+        <ul class="form-nav">
+          <li class="form-nav__item1">
+            <a href="#sign" class="form-nav__link form-nav__link--active">Sign in</a>
+          </li>
+          <li class="form-nav__item2">
+            <a href="#" class="form-nav__link">Join us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="form__content" id="sign">
+      <form action="#" method="get">
+        <div class="form-content">
+          <div class="form-content__controls">
+            <label class="form-content__label" for="Username">Username</label>
+            <input class="form-content__input" minlength="3" required  type="text" name="Username">
+          </div>
+          <div class="form-content__controls">
+            <label class="form-content__label" for="Password">Password</label>
+            <input class="form-content__input" required type="password" name="Password">
+          </div>
+          <div class="form-content__control">
+            <label class="form-content__keep"> <input checked type="checkbox" name="keep">
+              Keep me signed in
+            </label>
+          </div>
+          <div class="form-content__controls form-content__controls--submit">
+            <button type="submit" class="btn btn--sign">Sign in</button>
+          </div>
+          <div class="form-content__button">
+            <a href="#" class="form-content__link">Forgot password</a>
+            <a href="#" class="form-content__link">Create an account</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
